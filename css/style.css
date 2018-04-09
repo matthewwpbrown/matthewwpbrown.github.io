@@ -995,7 +995,7 @@ transform: rotate(180deg);
 .antispam{
 display:none;
 }
-.form input[type="text"], .form input[type="email"], .form input[type="phone"], .form input[type="url"], .form input[type="search"], .form input[type="tel"], .form input[type="password"], .form select {
+.formz input[type="text"], .formz input[type="email"], .formz input[type="phone"], .formz input[type="url"], .formz input[type="search"], .formz input[type="tel"], .formz input[type="password"], .formz select {
     background: none repeat scroll 0 0 #FFFFFF;
     border: medium none;
     border-radius: 1px;
