@@ -575,9 +575,20 @@
 		</div>
 	</div>
 	<form action="https://formspree.io/matthewwpbrown@gmail.com" method="post">
-		<input type="text" name="name">
-		<input type="email" name"_replyto">
-		<input type="submit" value="send">
+				<div class="form-group">
+					<input type="text" name="name" id="name" class="form-control required" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Enter Message"></textarea>
+				</div>
+				<div class="form-group text-center">
+					<input type="submit" id="contactForm_submit" class="btn btn-trans btn-border btn-full" value="Submit">
+				</div>
+        <!-- antispam code -->
+				<div class="antispam"><input type="text" value="" name="url" /></div>
 	</form>
 	<!-- End form contact -->
 </div>
